@@ -11,50 +11,54 @@ public class livro {
     private int valor;
     
     public void settitulo(String titulo) {
-            this.titulo = titulo;
+            this.titulo=titulo;
     }
-    public String settitulo{
+    public String settitulo (){
              return this.titulo;
 }
     
      public void getautor(String autor) {
-            this.autor = autor;
+            this.autor=autor;
     }
-    public String setautor{
+    public String setautor (){
              return this.autor;
 }
      public void getespn(String espn) {
-            this.espn = espn;
+            this.espn=espn;
     }
-    public String setespn{
+    public String setespn (){
              return this.espn;  
 }
     
-     public void paginas(String qntddepag) {
+     public void paginas(int paginas) {
             this.paginas = paginas;
     }
      
-     public String paginas{
+     public int paginas (){
              return this.paginas;  
 }
       public void getano(String ano) {
-            this.ano = ano;
+            this.ano=ano;
     }
      
-     public String ano{
+     public String ano (){
              return this.ano;  
 }
       public void editora(String editora) {
-            this.editora = editora;
+            this.editora=editora;
     }
      
-     public String editora{
+     public String editora (){
              return this.editora; 
     }
-      public void getvalor(String valor) {
-            this.valor = valor;
+      public void getvalor(int valor) {
+            this.valor = valor ;
     }
      
-     public String valor{
-             return this.valor;
-    }
+     public int valor (){
+             this.valor = valor;
+     }
+     
+     public String exibir (){ 
+          texto = 
+     )
